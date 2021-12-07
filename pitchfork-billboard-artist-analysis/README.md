@@ -6,17 +6,14 @@ I wanted to find out what artists fell into a so-called "sweet spot" of high Pit
 
 ## Overview of Datasets
 - #1 : Pitchfork Web Scraping Dataset (Album Reviews: 2017-2021)
--- This was started as part of an earlier project to analyze just the Pitchfork 
+>>> This was started as part of an earlier project to analyze just the Pitchfork album review data alone, which I developed a web scraping program for to capture the following variables for all album review pages: artist name, album name, album year, record label, and album rating. Originally I developed this to scrape all 2,000+ pages, but the processing time was too long. So after finding the Kaggle dataset (below), I edited this code to run only for missing years from 2017-2021.
 - #2 : Pitchfork Kaggle Dataset (Album Review: 1999-2017)
+>>> This dataset was available on [Kaggle](https://www.kaggle.com/ermoore/pitchfork-reviews-through-12617) and was scraped similar to my method above. This contained all webpages up to 2017 (when the dataset was created) and included variables for: artist name, album name, date added, genre, review text and album rating.
 - #3 : Billboard Hot 100 Dataset (Weekly Rankings, All-Time)
-
-## Goal of the Game
- - Win as much money as you can until you "crap" out by rolling a 7
- - Allowed 1 round of bets on all numbers before rolling, and the payouts for each outcome are calculated based on vegas odds
- - Keep rolling and winning until you roll a 7
+>>> This dataset was also availale on [Kaggle](https://www.kaggle.com/dhruvildave/billboard-the-hot-100-songs) and was made available through web scraping. It contains weekly rankings of the Hot 100 for all-time and includes variabls for: week, song title, artist name, song rank, song peak rank, and total weeks on board.
  
 ## Overview Presentation
-[HERE](https://docs.google.com/presentation/d/1YzxTBdAe3xwPs9h5e4PWwNci7OSNJ9DvO2xzhav46_E/edit?usp=sharing) is a link to my presentation explaining the game, approach to development and more.
+[HERE](https://docs.google.com/presentation/d/19rOHQMwOvZpOgMOY2N7vdHYraxkoKY7_UiKmNT6DXb8/edit?usp=sharing) is a link to my presentation explaining the analysis, showing the visualizations, and describing key findings.
 
 ## Info
 Made as part of [Nod Coding Bootcamp](https://www.nodcoding.com/) #4 2021
